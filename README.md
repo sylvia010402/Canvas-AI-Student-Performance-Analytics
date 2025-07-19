@@ -91,7 +91,7 @@ Ensemble approach (weighted predictions)
 --- 
 
 ### Sample Output
-Early Warning Dashboard:
+
 HIGH RISK STUDENTS (Week 8 Predictions)
 ┌─────────────────┬─────────────┬──────────────┬─────────────────┐
 │ Student ID      │ Course      │ Risk Level   │ Intervention    │
