@@ -92,14 +92,16 @@ Ensemble approach (weighted predictions)
 
 ### Sample Output
 
-🚨 HIGH RISK STUDENTS (Week 8 Predictions)
-┌─────────────────┬─────────────┬──────────────┬─────────────────┐
-│ Student ID      │ Course      │ Risk Level   │ Intervention    │
-├─────────────────┼─────────────┼──────────────┼─────────────────┤
-│ 1847           │ CHEM201     │ 89% Dropout  │ Emergency Tutor │
-│ 2193           │ CS101       │ 76% Fail     │ Study Group     │
-│ 1456           │ MATH200     │ 72% Disengage│ Check-in Call   │
-└─────────────────┴─────────────┴──────────────┴─────────────────┘
+HIGH RISK STUDENTS (Week 8 Predictions)
+
+┌────────────┬─────────┬──────────────┬──────────────────────┐
+│ Student ID │ Course  │ Risk Level   │ Intervention         │
+├────────────┼─────────┼──────────────┼──────────────────────┤
+│ 1847       │ CHEM201 │ 89% Dropout  │ Emergency Tutor      │
+│ 2193       │ CS101   │ 76% Fail     │ Study Group          │
+│ 1456       │ MATH200 │ 72% Disengage│ Check-in Call        │
+└────────────┴─────────┴──────────────┴──────────────────────┘
+
 
 ### Business Impact
 For a typical 10,000-student university:
@@ -128,23 +130,26 @@ This model can be deployed into a wider educational setting, not only in Canvas,
 
 
 ## Repository Structure
-├──  data/                          # Simulated Canvas LMS dataset
-│   ├── `courses.csv`                   # Course catalog with difficulty ratings
-│   ├── `students.csv`                  # Student profiles & characteristics  
-│   ├── `assignments.csv`               # Assignment structure & deadlines
-│   ├── `submissions.csv`               # Detailed submission tracking
-│   ├── `canvas_analytics.csv`          # Weekly engagement metrics
-│   └── `training_data.csv`            # ML-ready dataset with targets
-|
-├──  code/                          # Analysis & modeling code
-│   ├── `01_data_simulation.ipynb`     # Canvas dataset creation
-│   └── `02_model_building.ipynb`      # ML pipeline & evaluation
-│   
-├──  output/                        # Results & visualizations
-│   ├── `final_report.md`              # Comprehensive analysis report
-│   ├── `model_performance.png`        # ROC curves & metrics
-│   └── `recommendations_demo.png`     # Sample intervention examples
-└──  README.md                     # This file
+
+├── data/                         # Simulated Canvas LMS dataset
+│   ├── courses.csv               # Course catalog with difficulty ratings
+│   ├── students.csv              # Student profiles & characteristics
+│   ├── assignments.csv           # Assignment structure & deadlines
+│   ├── submissions.csv           # Detailed submission tracking
+│   ├── canvas_analytics.csv      # Weekly engagement metrics
+│   └── training_data.csv         # ML-ready dataset with targets
+
+├── code/                         # Analysis & modeling code
+│   ├── 01_data_simulation.ipynb  # Canvas dataset creation
+│   └── 02_model_building.ipynb   # ML pipeline & evaluation
+
+├── output/                       # Results & visualizations
+│   ├── final_report.md           # Comprehensive analysis report
+│   ├── model_performance.png     # ROC curves & metrics
+│   └── recommendations_demo.png  # Sample intervention examples
+
+└── README.md                     # This file
+
 
 
 ## Data Note
