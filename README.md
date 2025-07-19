@@ -53,7 +53,7 @@ A system that provides **personalized feedback** to students based on their trac
 
 ---
 
-## 📈 Key Outcomes
+## Key Outcomes
 
 - **Proactive Support**: Modeled interventions *before* risk peaks, rather than reacting post-failure.
 - **Student-Centric**: Recommendations are contextualized to individual needs, not one-size-fits-all tips.
