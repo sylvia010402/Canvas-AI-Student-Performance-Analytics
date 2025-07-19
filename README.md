@@ -1,6 +1,6 @@
 # Canvas-Predictive-Analytics-Using-AI
 
-# 🎓 Canvas AI: Predicting Student Struggles and Delivering Personalized Recommendations
+# Canvas AI: Predicting Student Struggles and Delivering Personalized Recommendations
 
 ## Overview
 
@@ -64,7 +64,7 @@ A system that provides **personalized feedback** to students based on their trac
 
 ## What This Means
 
-This project bridges personal experience and professional ambition. I saw a problem as a student, and now I’ve built a prototype that could help solve it at scale. My goal is to contribute ideas and systems that edtech companies can adopt to create smarter, more supportive learning platforms—where no student falls through the cracks unnoticed.
+This project bridges personal experience and professional ambition. I saw a problem as a student, and now I’ve built a prototype that could help solve it at scale. My goal is to contribute ideas and systems that edtech companies can adopt to create smarter, more supportive learning platforms, where no student falls through the cracks unnoticed.
 
 ---
 
