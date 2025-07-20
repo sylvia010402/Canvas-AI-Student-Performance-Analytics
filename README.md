@@ -86,9 +86,9 @@ Simulation         Features            Ensemble       for 3 Stakeholders
 
 Models Used:
 
-Random Forest (interpretability + feature importance)
-LSTM Neural Networks (temporal pattern recognition)
-Ensemble approach (weighted predictions)
+- Random Forest (interpretability + feature importance)
+- LSTM Neural Networks (temporal pattern recognition)
+- Ensemble approach (weighted predictions)
 
 --- 
 
