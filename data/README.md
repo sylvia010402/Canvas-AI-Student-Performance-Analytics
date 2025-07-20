@@ -1,6 +1,5 @@
 # Canvas LMS Simulated Dataset - Data Dictionary
 
-*Comprehensive documentation for simulated educational analytics data designed for predictive modeling and intervention research*
 
 ---
 
