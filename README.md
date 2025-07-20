@@ -68,12 +68,13 @@ This allows both the student and instructor to act proactively, before disengage
 ## Results
 The two diagrams below visualized the performance of the predictive models, also provides a demonstration of how the recommendation system works. A detialed discussion can be found in the [final report](output/final_report.md)
 
-## ![Model Performance Metrics](output/model_performance.png)
+## Model Performance Metrics
+ ![Model Performance Metrics](output/model_performance.png)
 
 The Canvas LMS predictive models demonstrate exceptional performance with AUC scores exceeding 0.85 across all targets. The ROC curves show Random Forest models achieve perfect prediction (AUC: 1.000) for academic failure, while LSTM models excel at temporal dropout patterns (AUC: 0.818). Feature importance analysis reveals that rolling grade averages and engagement metrics are the strongest predictors, validating our hypothesis that behavioral patterns precede academic crisis. The business impact metrics show 94.7% early detection rate with manageable 35.1% false positives, enabling institutions to identify struggling students 4 weeks in advance while maintaining efficient resource allocation for intervention teams.
 
-
-## ![Recommendation System Demo](output/recommendation_demo.png)
+## Recommendation System Demo
+![Recommendation System Demo](output/recommendation_demo.png)
 
 The recommendation engine transforms predictions into actionable interventions for three stakeholder groups. When students show risk signals, the system generates personalized recommendations: students receive specific actions like scheduling tutoring or joining study groups; instructors get prompts for check-in calls and deadline extensions; advisors receive alerts for emergency meetings and course load reviews. The system prioritizes interventions by risk level and urgency—89% dropout risk triggers emergency counseling, while 72% disengagement prompts check-in calls. Each recommendation includes specific timelines and reasoning, ensuring stakeholders understand both what to do and why. This multi-stakeholder approach ensures comprehensive support coverage and prevents students from falling through institutional gaps.
 
