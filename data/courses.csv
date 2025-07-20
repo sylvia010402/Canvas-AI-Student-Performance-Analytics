@@ -1,0 +1,9 @@
+course_id,name,subject,difficulty,workload
+CS101,Intro to Programming,Computer Science,0.7,high
+MATH200,Calculus II,Mathematics,0.8,high
+ENG110,Composition I,English,0.4,medium
+HIST150,World History,History,0.3,medium
+CHEM201,Organic Chemistry,Chemistry,0.9,high
+PSYC100,Intro Psychology,Psychology,0.2,low
+ECON200,Microeconomics,Economics,0.6,medium
+ART120,Digital Design,Art,0.4,medium
