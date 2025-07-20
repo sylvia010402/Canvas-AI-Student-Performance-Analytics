@@ -129,6 +129,7 @@ This model can be deployed into a wider educational setting, not only in Canvas,
 
 
 ## Repository Structure
+```
 
 ├── data/                          # Simulated Canvas LMS dataset
 │   ├── `courses.csv`                # Course catalog with difficulty ratings
@@ -149,8 +150,7 @@ This model can be deployed into a wider educational setting, not only in Canvas,
 │
 └── README.md                      # This file
 
-
-
+```
 
 ## Data Note
 All data is carefully simulated based on educational research and Canvas API documentation to protect student privacy while maintaining analytical validity. Real-world implementation would require appropriate institutional data governance and privacy protections.
