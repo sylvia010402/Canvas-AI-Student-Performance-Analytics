@@ -12,9 +12,9 @@ But like many students, I occasionally missed deadlines, especially during final
 ### The Solution 
 Traditional academic support is reactive, by the time students fail, it's often too late for meaningful intervention. This system transforms education from failure prediction to failure prevention. Therefore, this project builds up an early Intervention Ecosystem with three key components:
 
-1. ** Predictive Model ** : Predicting which students are at risk of disengagement or failure 4-week ahead
-2. ** Recommendation System ** : Personalized interventions for students, instructors, and advisors before the falling-behind happens
-3. ** Evaluation Framework ** : Business-focused metrics beyond traditional accuracy for model performances
+1. **Predictive Model** : Predicting which students are at risk of disengagement or failure 4-week ahead
+2. **Recommendation System** : Personalized interventions for students, instructors, and advisors before the falling-behind happens
+3. **Evaluation Framework** : Business-focused metrics beyond traditional accuracy for model performances
 
 The full business report can be found [here]() for a more detailed documentation of how I accomplished each step.
 
