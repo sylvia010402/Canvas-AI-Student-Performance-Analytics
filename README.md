@@ -16,7 +16,7 @@ Traditional academic support is reactive, by the time students fail, it's often 
 2. **Recommendation System** : Personalized interventions for students, instructors, and advisors before the falling-behind happens
 3. **Evaluation Framework** : Business-focused metrics beyond traditional accuracy for model performances
 
-The full business report can be found [here]() for a more detailed documentation of how I accomplished each step.
+The full business report can be found [here](output/final_report.md) for a more detailed documentation of how I accomplished each step.
 
 ---
 
