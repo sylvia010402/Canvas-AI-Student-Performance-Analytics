@@ -130,25 +130,26 @@ This model can be deployed into a wider educational setting, not only in Canvas,
 
 ## Repository Structure
 
-project-root/
-├── data/                       # Simulated Canvas LMS dataset
-│   ├── courses.csv             # Course catalog with difficulty ratings
-│   ├── students.csv            # Student profiles & characteristics
-│   ├── assignments.csv         # Assignment structure & deadlines
-│   ├── submissions.csv         # Detailed submission tracking
-│   ├── canvas\_analytics.csv    # Weekly engagement metrics
-│   └── training\_data.csv       # ML-ready dataset with targets
+├── data/                          # Simulated Canvas LMS dataset
+│   ├── courses.csv                # Course catalog with difficulty ratings
+│   ├── students.csv               # Student profiles & characteristics
+│   ├── assignments.csv            # Assignment structure & deadlines
+│   ├── submissions.csv            # Detailed submission tracking
+│   ├── canvas_analytics.csv       # Weekly engagement metrics
+│   └── training_data.csv          # ML-ready dataset with targets
+│
+├── code/                          # Analysis & modeling code
+│   ├── 01_data_simulation.ipynb   # Canvas dataset creation
+│   └── 02_model_building.ipynb    # ML pipeline & evaluation
+│
+├── output/                        # Results & visualizations
+│   ├── final_report.md            # Comprehensive analysis report
+│   ├── model_performance.png      # ROC curves & performance metrics
+│   └── recommendations_demo.png   # Sample intervention examples
+│
+└── README.md                      # This file
 
-├── code/                       # Analysis & modeling code
-│   ├── 01\_data\_simulation.ipynb  # Canvas dataset creation
-│   └── 02\_model\_building.ipynb   # ML pipeline & evaluation
 
-├── output/                     # Results & visualizations
-│   ├── final\_report.md         # Comprehensive analysis report
-│   ├── model\_performance.png   # ROC curves & metrics
-│   └── recommendations\_demo.png # Sample intervention examples
-
-└── README.md                   # This file
 
 
 ## Data Note
