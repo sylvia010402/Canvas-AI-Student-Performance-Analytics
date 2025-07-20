@@ -77,11 +77,13 @@ Late submission patterns predict 82% of future assignment failures with 4-week a
 Students improving in any 2 of 3 metrics (engagement, timing, grades) have 89% course completion probability
 
 ### Technical Architecture
-
+```
 Data Simulation → Feature Engineering → Model Building → Recommendation Engine
      ↓                    ↓                   ↓               ↓
 Canvas API         Time Series         RF + LSTM      Personalized Actions
 Simulation         Features            Ensemble       for 3 Stakeholders
+```
+
 Models Used:
 
 Random Forest (interpretability + feature importance)
