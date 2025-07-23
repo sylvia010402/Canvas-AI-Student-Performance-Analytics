@@ -9,6 +9,7 @@ Back when I was a university student, I relied heavily on Canvas LMS (Learning M
 
 But like many students, I occasionally missed deadlines, especially during finals or when juggling multiple courses. This experience sparked a deep curiosity: *Could we use data and AI to help students like me stay on track?* Especially when managing multiple courses or facing finals? Now, as a data analyst in the edtech space, I wanted to explore how platforms like Canvas could be enhanced with predictive analytics and personalized support systems. This project reflects that journey, from a student’s perspective to an analyst’s solution.
 
+
 ### The Solution 
 Traditional academic support is reactive, by the time students fail, it's often too late for meaningful intervention. This system transforms education from failure prediction to failure prevention. Therefore, this project builds up an early Intervention Ecosystem with three key components:
 
@@ -66,7 +67,7 @@ This allows both the student and instructor to act proactively, before disengage
 ---
 
 ## Results
-The two diagrams below visualized the performance of the predictive models, also provides a demonstration of how the recommendation system works. A detialed discussion can be found in the [final report](output/final_report.md)
+The two diagrams below visualized the performance of the predictive models, also provides a demonstration of how the recommendation system works. A detialed discussion can also be found in the [final report](output/final_report.md)
 
 ## Model Performance Metrics
  ![Model Performance Metrics](output/model_performance.png)
